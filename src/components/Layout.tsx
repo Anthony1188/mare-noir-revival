@@ -19,7 +19,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/70 border-b border-hair">
         <div className="grid grid-cols-[1fr_auto_1fr] items-center px-6 md:px-10 h-16 md:h-20">
           <Link to="/" aria-label="MARÉ NOIR home" className="justify-self-start">
-            <Logo className="text-[11px] md:text-xs opacity-90" />
+            <Logo className="h-2.5 md:h-3 opacity-90" />
           </Link>
           <nav className="hidden md:flex items-center gap-12 text-[11px] tracking-eyebrow uppercase text-bone/70">
             {NAV.map((n) => (
@@ -48,7 +48,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       <footer className="mt-32 border-t border-hair">
         <div className="px-6 md:px-10 py-16 grid md:grid-cols-4 gap-12">
           <div className="md:col-span-2 space-y-6">
-            <Logo className="text-sm opacity-90" />
+            <Logo className="h-4 opacity-90" />
             <p className="font-display italic text-bone/60 max-w-md text-lg leading-relaxed">
               Inspired by the depths. Crafted on the Mediterranean. Released in
               numbered editions, and then no more.

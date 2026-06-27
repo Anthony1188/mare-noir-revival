@@ -1,11 +1,11 @@
-export const Logo = ({ className = "text-sm" }: { className?: string }) => (
-  <span
-    aria-label="MARÉ NOIR"
-    className={`inline-flex items-baseline font-mono-sans font-extralight uppercase leading-none text-bone select-none ${className}`}
-    style={{ letterSpacing: "0.42em" }}
-  >
-    <span>MARÉ</span>
-    <span className="mx-[0.35em] inline-block w-[0.35em] h-[1px] bg-current opacity-60 -translate-y-[0.35em]" />
-    <span>NOIR</span>
-  </span>
+import logoAsset from "@/assets/mare-noir-logo.png.asset.json";
+
+export const Logo = ({ className = "h-3" }: { className?: string }) => (
+  <img
+    src={logoAsset.url}
+    alt="MARÉ NOIR"
+    draggable={false}
+    className={`w-auto select-none ${className}`}
+    style={{ filter: "brightness(0) invert(1)" }}
+  />
 );

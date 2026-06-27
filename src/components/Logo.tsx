@@ -1,11 +1,11 @@
-import logoWhite from "@/assets/mn-logo-white.asset.json";
-
-export const Logo = ({ className = "h-5" }: { className?: string }) => (
-  <img
-    src={logoWhite.url}
-    alt="MARÉ NOIR"
-    className={className}
-    width={400}
-    height={48}
-  />
+export const Logo = ({ className = "text-sm" }: { className?: string }) => (
+  <span
+    aria-label="MARÉ NOIR"
+    className={`inline-flex items-baseline font-mono-sans font-extralight uppercase leading-none text-bone select-none ${className}`}
+    style={{ letterSpacing: "0.42em" }}
+  >
+    <span>MARÉ</span>
+    <span className="mx-[0.35em] inline-block w-[0.35em] h-[1px] bg-current opacity-60 -translate-y-[0.35em]" />
+    <span>NOIR</span>
+  </span>
 );

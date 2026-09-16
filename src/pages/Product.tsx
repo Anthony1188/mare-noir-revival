@@ -28,7 +28,7 @@ const Product = () => {
           <p className="text-bone/60 leading-relaxed max-w-md">{product.description}</p>
 
           <div className="mt-10 flex items-baseline gap-4">
-            <span className="text-2xl font-display text-bone">€{product.price}</span>
+            <span className="text-2xl font-display text-bone">${product.price}</span>
             <span className="text-[10px] tracking-eyebrow uppercase text-bone/40">
               Of {product.pieces} pieces
             </span>
@@ -78,7 +78,7 @@ const Product = () => {
               </div>
               <div className="mt-6 flex items-baseline justify-between">
                 <h3 className="font-display text-3xl text-bone">{p.name}</h3>
-                <span className="text-sm text-bone/60">€{p.price}</span>
+                <span className="text-sm text-bone/60">${p.price}</span>
               </div>
             </Link>
           ))}

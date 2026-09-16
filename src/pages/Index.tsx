@@ -131,7 +131,7 @@ const Index = () => {
                   <Eyebrow>Silhouette {p.silhouette}</Eyebrow>
                   <h3 className="font-display text-3xl text-bone mt-1">{p.name}</h3>
                 </div>
-                <span className="text-sm text-bone/60">€{p.price}</span>
+                <span className="text-sm text-bone/60">${p.price}</span>
               </div>
             </Link>
           ))}

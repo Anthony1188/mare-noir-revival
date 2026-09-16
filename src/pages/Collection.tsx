@@ -38,7 +38,7 @@ const Collection = () => (
           </div>
           <div className="mt-8 flex items-baseline justify-between">
             <h2 className="font-display text-4xl text-bone">{p.name}</h2>
-            <span className="text-sm text-bone/60">€{p.price}</span>
+            <span className="text-sm text-bone/60">${p.price}</span>
           </div>
           <p className="text-sm text-bone/50 mt-3 leading-relaxed">{p.description}</p>
           <span className="mt-6 text-[11px] tracking-eyebrow uppercase text-bone/70 border-b border-bone/30 self-start pb-1 group-hover:text-gold">

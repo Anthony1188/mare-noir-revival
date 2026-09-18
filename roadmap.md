@@ -1,5 +1,6 @@
 # Roadmap
 
-- [x] Replace Noir, Abyss, and Sable with consistent floating product photography.
-- [x] Confirm each product remains linked to its individual product page.
-- [x] Verify collection and product presentation across desktop, tablet, and mobile.
+- [x] Refine Noir, Abyss, and Sable with premium fabric and construction detail.
+- [x] Normalize all three products to one identical, larger presentation size.
+- [ ] Use the refined set across every grouped collection display.
+- [ ] Verify matching scale and rendering at desktop, tablet, and mobile sizes.

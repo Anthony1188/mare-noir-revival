@@ -1,8 +1,8 @@
-import logoAsset from "@/assets/mare-noir-logo.png.asset.json";
+import logoAsset from "@/assets/mare-noir-logo.png";
 
 export const Logo = ({ className = "h-3" }: { className?: string }) => (
   <img
-    src={logoAsset.url}
+    src={logoAsset}
     alt="MARÉ NOIR"
     draggable={false}
     className={`w-auto select-none ${className}`}

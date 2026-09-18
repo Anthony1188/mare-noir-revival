@@ -124,7 +124,7 @@ const Index = () => {
           {products.map((p) => (
             <Link key={p.slug} to={`/product/${p.slug}`} className="group relative bg-background p-8 flex flex-col">
               <div className="aspect-[3/4] overflow-hidden bg-abyss/40">
-                <img src={p.image} alt={p.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" loading="lazy" width={1024} height={1280} />
+                <img src={p.image} alt={p.name} className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-[1.03]" loading="lazy" width={1024} height={1280} />
               </div>
               <div className="mt-6 flex items-baseline justify-between">
                 <div>

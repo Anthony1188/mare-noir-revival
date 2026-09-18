@@ -34,7 +34,7 @@ const Collection = () => (
             <Eyebrow>{String(i + 1).padStart(2, "0")} / 03</Eyebrow>
           </div>
           <div className="aspect-[3/4] overflow-hidden bg-abyss/40">
-            <img src={p.image} alt={p.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" loading="lazy" width={1024} height={1280} />
+            <img src={p.image} alt={p.name} className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-[1.03]" loading="lazy" width={1024} height={1280} />
           </div>
           <div className="mt-8 flex items-baseline justify-between">
             <h2 className="font-display text-4xl text-bone">{p.name}</h2>

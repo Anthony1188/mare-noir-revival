@@ -1,6 +1,6 @@
-import noir from "@/assets/product-noir-floating.png";
-import abyss from "@/assets/product-abyss-floating.png";
-import sable from "@/assets/product-sable-floating.png";
+import noir from "@/assets/product-noir-refined.png";
+import abyss from "@/assets/product-abyss-refined.png";
+import sable from "@/assets/product-sable-refined.png";
 
 export type Product = {
   slug: string;
